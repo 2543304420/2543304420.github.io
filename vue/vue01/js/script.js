@@ -1,0 +1,42 @@
+var app=new Vue({
+    el:"#app",
+    data:{
+        message:"hello",
+        title:"属性",
+        imgsrc:"img/1.png",
+        t:true,
+        lists:["香蕉","苹果","鸭梨"],
+        fs:[
+            {name:"首页",url:"index.html"},
+            {name:"关于",url:"about.html"},
+            {name:"新闻",url:"news.html"}
+        ],
+        message1:"hello word",
+        classobject:{
+            h:true
+        }
+    },
+    methods:{
+        e:function(){
+           alert("hello")
+        },
+        e1:function(){
+            if(this.t){
+            this.imgsrc="img/2.png"
+                this.t=false
+                }else{
+                   this.imgsrc="img/1.png" 
+                    this.t=true
+                }
+        },
+        e2:function(s){
+            console.log(s+" word")
+        },
+        e3:function(s1){
+            this.lists.splice(s1,1)
+        },
+        e4:function(){
+            alert(this.text)
+        }
+    }
+})
