@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        .h{
+            color:aquamarine;
+        }
+    </style>
+</head>
+<body>
+   <div id="app">
+       {{message}}
+       <p :title="title">属性</p>
+       <button @click="e">按钮</button>
+       <button @click="e1">点击切换图片</button>
+       <img :src="imgsrc" alt="">
+       <ul>
+           <li v-for="(list,index) in lists" @click="e3(index)">{{list}} 索引：{{index}}</li>
+       </ul>
+        <a v-for="f in fs" :href="f.url">{{f.name}}</a>
+       <button @click="e2('hello')">传递参数</button>
+       <input v-model="message1">
+       <p>{{message1}}</p>
+       <p v-if="t">现在你看到我了</p>
+       <h2 :class="classobject">hello word</h2>
+       <input v-model="text" @keyup.enter="e4">
+   </div>
+   
+   
+    <script src="node_modules/vue/dist/vue.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
