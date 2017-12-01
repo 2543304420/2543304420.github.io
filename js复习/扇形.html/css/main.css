@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/*! 盛邦升华 */
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #000; }
+
+#nav {
+  width: 130px;
+  height: 400px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+  #nav li {
+    position: absolute;
+    list-style: none;
+    transition: 0.5s;
+    transform-origin: 25px 375px;
+    box-shadow: 2px 2px 20px #fff; }
+  #nav img {
+    display: block; }

@@ -1,0 +1,7 @@
+*{margin: 0;padding: 0;}
+li{list-style:none;}
+.big{width:100%;float:left;overflow:hidden;}
+.sml{width: 500%;float:left;transition:0.3s;}
+.sml ul{width:100%;}
+.sml li{float:left;width:20%;}
+.sml img{float:left;width: 100%;}
