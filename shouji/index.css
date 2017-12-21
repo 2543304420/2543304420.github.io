@@ -1,0 +1,180 @@
+
+.style_layout{
+width: 6.4rem;
+    min-height:2rem;
+}
+
+.style_logo{
+   
+    background-color: #f3f3f3;
+    padding: 0.1rem auto;
+}
+.style_logo span{
+    display: block;
+    width: 2.1rem;
+    margin:0px auto;
+    padding: 8px 0;
+}
+.style_logo span img{
+    width: 100%;
+}
+.style_search input{
+    border:1px #f3f3f3 solid;
+    border-radius: 3px;
+    width: 100%;
+    margin-top: 11px;
+    margin-bottom: 14px;
+    padding-left: 11px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.style_banner img{
+    width: 100%;
+    background-size: cover;
+    
+}
+.style_new::after{
+    clear:both;
+    display: table;
+    content:"";
+}
+.style_new{
+   text-align: center;
+}
+.style_new1{
+    width: 35%;
+    margin:0px auto;
+    
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 2%;
+   
+    
+}
+.style_new1 .left{
+    float: left;
+    width: 30%;
+    background-color: #000;
+    height: 2px;
+    margin:7px 13px;
+}
+
+.style_new1 .xin{
+     font-size: 16px;
+    font-weight: bold;
+    float: left;
+}
+
+ul::after{
+     clear:both;
+    display: table;
+    content:"";
+}
+.style_new1::after{
+      clear:both;
+    display: table;
+    content:"";
+}
+.big{
+    list-style: none;
+   
+    margin-top: 20px;
+    padding: 12px;
+}
+.big li{
+    float: left;
+    width: 33%;
+}
+.big li img{
+    width: 100%;
+}
+.btn{
+    margin-bottom: 8px;
+}
+.btn a{
+    display: inline-block;
+    padding: 5px 16px;
+    border:1px #000 solid;
+    color:#000;
+ 
+}
+.btn a:hover{
+    color:#fff;
+    background-color: #000;
+}
+.border{
+   
+    background-color: #eeeeee;
+    height: 6px;
+}
+.style_hot{
+    text-align: center;
+}
+.style_hot h3{
+    font-size: 16px;
+    color:#000;
+    margin-top: 25px;
+}
+.style_hot .row{
+    margin: 4px;
+}
+
+.style_hot .row .col-4{
+    width: 33.333%;
+    float:left;
+    padding: 4px;
+    
+}
+.style_hot .row .col-4 img{
+    width: 100%;
+    
+    display: block;
+}
+.style_fasion .img img{
+    width: 100%;
+}
+.style_footer{
+    padding:6px 30px;
+}
+.style_footer li{
+    width: 20%;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+.style_footer li h4{
+    font-size: 16px;
+    color:#757575;
+}
+.style_footer li img{
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:640px){
+    .style_new1 {
+        width: 93%;
+    }
+}
+
+
