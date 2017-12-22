@@ -1,0 +1,68 @@
+/* 网站头部 
+制作团队：杩海杉 黄皓月 高睿 孙梦林 于智斌
+*/
+
+header {
+    padding: 24px 0;
+    ul::after{
+        clear:both;
+        display: block;
+        content: "";
+    }
+    .industry {
+        float: left;
+    }
+    nav {
+        
+        ul {
+            float: right;
+            li {
+                list-style: none;
+                float: left;
+                margin: 0 1.5px;
+                a{
+                    padding: 15px;
+                    color: #696969;
+                    font-size: 12px;
+                    border:1px solid #fff;
+                    &:hover{
+                        color: #e48907;
+                        border: 1px solid #e48907;
+                        text-decoration: none;
+                    }
+                }
+                .active{
+                    background: url(../img/right.png) no-repeat center right 3px;
+                }
+                .action{
+                    color: #e48907;
+                    border:1px solid #e48907;
+                    border:1px solid #e48907;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+@media(max-width:720px){
+    header .industry{
+       float:none;
+        position:relative;
+       left: 50%;
+        width: 85px;
+        margin:20px 0 20px -75.5px;
+    }
+    header nav ul{
+        padding-left: 0px;
+    } 
+    header li{
+        width: 100%;
+        margin-top: 30px;
+        a{
+            
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+    }
+}

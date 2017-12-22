@@ -1,0 +1,42 @@
+/* 产品介绍
+制作团队：赵潇鹏 范康宁 孟浩 刘泽天 赵亮
+*/
+
+.products {
+    box-sizing: border-box;
+    color: #656565;
+    .our {
+        margin-bottom: 60px;
+        h2 {
+            color: #333333;
+        }
+        p {
+            line-height: 22px;
+        }
+    }
+    .box {
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        border: 1px #d4d4d4 solid;
+        margin-bottom: 30px;
+        i {
+            font-size: 68px;
+            padding-top: 70px;
+            color: #e48907;
+            padding-bottom: 30px;
+        }
+        h3 {
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: 900;
+        }
+        p {
+            line-height: 20px;
+        }
+        a {
+            color: #0c459f;
+        }
+    }
+}
