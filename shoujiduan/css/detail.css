@@ -1,0 +1,94 @@
+
+header{
+   
+   
+    
+}
+.header1{
+     border-bottom: 1px #f3f3f3 solid;
+    padding-left: 12px;
+}
+header .img{
+    float:left;
+}
+header h3{
+    color: #0a0000;
+    font-size: 16px;
+     text-align: center;
+}
+header h4{
+     text-align: center;
+}
+header p{
+    text-align: center;
+    color:#939894;
+    font-weight: bold;
+}
+.border{
+    background-color: #f1f2ed;
+    text-align: center;
+    padding: 10px 0px;
+}
+.border h4{
+    color: #534e52;
+    font-weight: bold;
+}
+.carousel-inner img{
+    margin:0px auto;
+}
+.carousel-control.left{
+    opacity: 0.1;
+}
+.carousel-control.right{
+   opacity: 0.1; 
+}
+.glyphicon-chevron-left{
+    color: #000;
+}
+.glyphicon-chevron-right{
+    color: #000;
+}
+.carousel-indicators li{
+    background-color: #000;
+}
+.carousel-indicators .active{
+    background-color: #858a90;
+}
+.item{
+    margin-top: 30px;
+}
+.main{
+    border-bottom: 4px #f1f1f1 solid;
+    padding: 28px;
+}
+.main p{
+     color:#939894;
+    font-weight: bold;
+    float: left;
+}
+.right1{
+    float: right;
+    transform: rotate(180deg);
+}
+.main1{
+    margin-top: 20px;
+    padding-left: 28px;
+    padding-right: 15px;
+    border-bottom: 4px #f1f1f1 solid;
+}
+.main1 p{
+     color:#939894;
+    font-weight: bold;
+    
+}
+.p1{
+    float: left;
+}
+.main1 h4{
+    font-weight:bold;
+}
+.main1::after{
+    content:"";
+    clear:both;
+    display: table;
+}
